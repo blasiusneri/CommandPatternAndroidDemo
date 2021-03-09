@@ -1,5 +1,7 @@
 # CommandPatternAndroidDemo
 
+![](command_android.gif)
+
 *set button action to use command 
 findViewById<Button>(R.id.bt_one).setOnClickListener {
   commands[0]?.execute(this)
